@@ -1,22 +1,92 @@
-.content, .listBody {
-	width: 970px;
-	height: 70px;
+.content, .listItems, .addItem, .social {
+	width: 400px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 2em;
+	padding-bottom: 1em;
 	text-align: center;
+	font-family: 'Cabin', sans-serif;
 }
 
 .content h1 {
-	font-size: 42px;
-	color: #fff;
+	font-size: 2em;
+	color: #E8D284;
 	letter-spacing: 0.03em;
-	padding-bottom: 20px;
+	padding-top: 2em;
+	padding-bottom: .2em;
+	font-family: 'Oswald', Arial, sans-serif;
 }
 
-.listBody{
-	padding-top: 100px;
-	background-color: blue;
+.bigFont{
+   color: #B93624;
+   text-shadow: 2px 2px 2px #332C24;
+   font-size: 3.0em;
 
+    padding: 50px 60px;
+    display: inline-block;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    border-radius: 300px;
+    -moz-box-shadow: 2px 2px 12px #B93624;
+    -webkit-box-shadow: 2px 2px 12px #B93624;
+    box-shadow: 2px 2px 12px #B93624;
+}
+
+.addItem{
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+.listItems{
+	padding-top: 2em;
+	background-color: #2B3244;
+
+}
+
+.listItems ul{
+	padding-top: 1em;
+	width: 12em;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: linear-gradient(#E8D284, #B93624);
+}
+
+.listItems li{
+	color: #332C24;
+	padding-top: 1.2em;
+	padding-bottom: 1.2em;
+}
+
+.listItems a{
+	
+}
+
+.listItems a:hover{
+
+}
+
+.social{
+	background-color: #B93624;
+	color: #E8D284;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 1em;
+	letter-spacing: .05em;
+
+}
+
+.social a{
+	color: #E8D284;
+	text-decoration: underline;
+}
+
+.social a:hover{
+	text-decoration: none;
+	background-color: #2B3244;
+}
+
+.social hr{
+	width: 25%;
+	display: block;
+	height: 1px;
+    border: 0; border-top: 2px solid #2B3244;
 }
