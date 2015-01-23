@@ -1,0 +1,22 @@
+.content, .listBody {
+	width: 970px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.content h1 {
+	font-size: 42px;
+	color: #fff;
+	letter-spacing: 0.03em;
+	padding-bottom: 20px;
+}
+
+.listBody{
+	padding-top: 100px;
+	background-color: blue;
+
+}
