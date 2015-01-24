@@ -10,11 +10,15 @@
 
 .content h1 {
 	font-size: 2em;
-	color: #E8D284;
+	color: #B93624;
 	letter-spacing: 0.03em;
 	padding-top: 2em;
 	padding-bottom: .2em;
 	font-family: 'Oswald', Arial, sans-serif;
+}
+
+.content p{
+	color: #4C555A;
 }
 
 .bigFont{
@@ -35,6 +39,7 @@
 .addItem{
 	font-family: 'Oswald', sans-serif;
 	font-size: 2em;
+	color: #B93624;
 }
 
 .listItems{
@@ -96,4 +101,14 @@
 	display: block;
 	height: 1px;
     border: 0; border-top: 2px solid #2B3244;
+}
+
+.socialLinks a{
+	color: #E8D284;
+}
+
+.socialLinks a:hover{
+	background-color: #B93624;
+	color: #2B3244;
+	
 }
