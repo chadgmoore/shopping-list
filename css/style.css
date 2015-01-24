@@ -12,13 +12,15 @@
 	vertical-align: top;
 	margin-top: 1em;
 	padding-left: 6em;
+	padding-right: 6em;
 	padding-top: 1em;
 	text-align: center;
+	width: 22em;
 }
 
 .content h1 {
 	font-size: 2em;
-	color: #B93624;
+	color: #2B3244;
 	letter-spacing: 0.03em;
 	padding-top: 2em;
 	padding-bottom: .2em;
@@ -50,36 +52,26 @@
 	color: #B93624;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	background-color: #4C555A;
+	background-color: #B93624;
 }
 
 .input {
-    border: 5px solid #B93624; 
-    -webkit-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    -moz-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    padding: 15px;
-    background: #2B3244;
-    margin: 0 0 10px 0;
-    color: white;
+    border: .5em solid #E8D284;
+	padding: 1em;
+	padding-bottom: 1em;
+	background: #B93624;
+	margin: 0 0 0px 0;
+	color: white;
+	vertical-align: middle;
+	text-transform: uppercase;
 }
 
 .listItems{
-	padding-top: 1em;
-	background-color: #2B3244;
 	padding-bottom: 2em;
-
 }
 
 .listItems ul{
-	padding-top: 1em;
-	width: 12em;
+	width: 22em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -92,11 +84,13 @@
 }
 
 .listItems li:nth-child(even){
-	background-color:#E8D284;
+	background-color:#B93624;
+	color: #E8D284;
 }
 
 .listItems li:nth-child(odd){
-	background-color: #B93624;
+	background-color: #E8D284;
+	color: #B93624;
 }
 
 .listItems a{
@@ -136,7 +130,7 @@
 }
 
 .social hr{
-	width: 25%;
+	width: 33%;
 	display: inline-block;
 	height: 2px;
     border: 0; border-top: 2px solid #2B3244;
@@ -144,10 +138,19 @@
 
 .socialLinks a{
 	color: #E8D284;
+	font-size: 1.6em;
 }
 
 .socialLinks a:hover{
 	background-color: #B93624;
 	color: #2B3244;
 	
+}
+
+.deleteItem{
+	display: inline;
+	float: right;	
+	text-align: right;
+	padding-right: 1em;
+	font-size: 1.0em;
 }
