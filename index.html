@@ -4,13 +4,17 @@
 	<meta charset="UTF-8">
 	<title>Shopping-List</title>
 	<link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/style.css">
   
-  <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
 
-<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+  	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+ 	<script src="http://code.jquery.com/jquery.min.js"></script>
+  	<script src="js/shopping-list.js"></script>
+
   <section class="intro">
 	  <div class="content">
 	  	<div class="bigFont">
@@ -31,16 +35,20 @@
 </head>
 <body>
 <section class="rightSide">
-	<section class="addItem">
+	<section class="addItems">
 		<form>
-			<input type="text" name="newItem" class="input" autocomplete="off" placeholder="Type and hit enter.">
+			<input type="text" name="newItem" class="input" autocomplete="off" placeholder="Type, then hit enter.">
+			</input>		
 		</form>
 	</section>
 
 	<section class="listItems">
-		<ul>
-			<li><a>eggs</a><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>
-			<li><a>milk</a><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>
+		<ul class="listUl">
+			<li><span class='item'>eggs</span><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>
+			<li><span class='item'>milk</span><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>
+			<li><span class='item'>beer</span><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>
+			<li><span class='item'>carrots</span><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>
+			<li><span class='item'>lettuce</span><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>
 		</ul>
 	</section>
 </section>

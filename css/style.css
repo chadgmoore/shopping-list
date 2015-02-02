@@ -1,3 +1,5 @@
+/* responsive at 940 width. Change the padding on right side to match left*/
+
 
 .intro{
 	display: inline-block;
@@ -5,6 +7,8 @@
 	padding-top: 2em;
 	padding-left: 2em;
 	text-align: center;
+	background-color: #2B3244;
+	padding-left: 0px;
 }
 
 .rightSide{
@@ -20,7 +24,7 @@
 
 .content h1 {
 	font-size: 2em;
-	color: #2B3244;
+	color: #B93624;
 	letter-spacing: 0.03em;
 	padding-top: 2em;
 	padding-bottom: .2em;
@@ -46,7 +50,7 @@
     box-shadow: 2px 2px 12px #B93624;
 }
 
-.addItem{
+.addItems{
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.8em;
 	color: #B93624;
@@ -57,8 +61,10 @@
 
 .input {
     border: .5em solid #E8D284;
-	padding: 1em;
+	padding-top: 1em;
 	padding-bottom: 1em;
+	padding-left: 2.4em;
+	padding-right: 2.4em;
 	background: #B93624;
 	margin: 0 0 0px 0;
 	color: white;
@@ -69,6 +75,13 @@
 .listItems{
 	padding-bottom: 2em;
 }
+
+.listUl{
+	width: 22em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 .listItems ul{
 	width: 22em;
@@ -93,12 +106,17 @@
 	color: #B93624;
 }
 
-.listItems a{
-	
+.item{
+		
 }
 
-.listItems a:hover{
 
+.checked{ 
+	text-decoration: line-through;
+}
+
+.checked li{
+	background-color: #2B3244;
 }
 
 .social{
