@@ -26,8 +26,15 @@ $(document).ready(function() {
 })
 
 	function addItem() {
-		$('<li><span class="item">' + newItem + '</span><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>').prepend('.listUl');
+		$('<li><span class="item">' + newItem + '</span><div class="deleteButton"> <i class="fa fa-close fa-1x"></i></div></li>').prepend('.listUl');
 }
+
+
+  // When the button is clicked
+  $("#deleteButton").click(function(){
+    $('li').remove();
+    
+  })
 
 //Add Item
 //get dialog box use .append() to add to the top of the list
@@ -41,6 +48,3 @@ $(document).ready(function() {
 
 
 });
-
-
-	
