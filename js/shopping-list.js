@@ -24,9 +24,7 @@ $(document).ready(function() {
 
 })
 
-	function addItem(item) {
-		$('<li><span class="item">' + newItem + '</span><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>').prepend('.listUl');
-	}
+
 
 //Add Item
 //get dialog box use .append() to add to the top of the list
@@ -40,3 +38,7 @@ $(document).ready(function() {
 
 
 });
+
+	function addItem(newItem) {
+		$('<li><span class="item">' + newItem + '</span><div class="deleteItem"> <i class="fa fa-close fa-1x"></i></div></li>').prepend('.listUl');
+	}
