@@ -30,11 +30,11 @@ $(document).ready(function() {
 }
 
 
-  // When the button is clicked
-  $("#deleteButton").click(function(){
+  $(".deleteButton").click(function(){
     $('li').remove();
     
   })
+
 
 //Add Item
 //get dialog box use .append() to add to the top of the list
