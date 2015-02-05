@@ -100,10 +100,6 @@
 	color: #B93624;
 }
 
-.item{
-	letter-spacing: 0.1em;
-	
-}
 
 .checked{ 
 	text-decoration: line-through;
@@ -154,6 +150,10 @@
 	background-color: #B93624;
 	color: #2B3244;
 	
+}
+
+#listId{
+	letter-spacing: 0.1em;
 }
 
 .deleteButton{

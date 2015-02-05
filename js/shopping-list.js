@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
 	$('ul').on('click', 'li:nth-child(odd)', function(event){
   		$(this).toggleClass('checked');
   		$('ul').append(this)
@@ -19,32 +18,19 @@ $(document).ready(function() {
 
 })
 
-	$(document).keydown(function(e) {
-	    if(e.which == 13) {
-	    	addItem();
-	    }
-})
 
-	function addItem() {
-		$('<li><span class="item">' + newItem + '</span><div class="deleteButton"> <i class="fa fa-close fa-1x"></i></div></li>').prepend('.listUl');
-}
+  $('.input').keypress(function(e) {
+    if(e.which == 13) {
+      var newItem = document.getElementsByName('newItem')[0];
+      // alert(newItem.value);
+      console.log(newItem.value);
+      $('#listId').prepend('<li id="listId">' + newItem.value + '<button class="deleteButton"> <i class="fa fa-close fa-1x"></i></button></li>');
+    }
+})
 
 
   $(".deleteButton").click(function(){
-    $('li').remove();
-    
+    $(this).parent('li').remove();    
   })
-
-
-//Add Item
-//get dialog box use .append() to add to the top of the list
-
-//DONE//checkoff
-///on click, strikethrough and move to bottom, set background-color: #2B3244; color: #fff;
-
-
-//delete
-///on click of X, remove from list (delete)
-
 
 });
