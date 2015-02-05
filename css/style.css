@@ -76,12 +76,16 @@
 	padding-bottom: 2em;
 }
 
+
 .listUl{
 	width: 22em;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+#listId{
+	letter-spacing: 0.1em;
+}
 
 .listUl li{
 	color: #332C24;
@@ -150,10 +154,6 @@
 	background-color: #B93624;
 	color: #2B3244;
 	
-}
-
-#listId{
-	letter-spacing: 0.1em;
 }
 
 .deleteButton{
