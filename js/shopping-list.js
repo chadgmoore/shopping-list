@@ -25,14 +25,14 @@ $(document).ready(function() {
       var newItem = document.getElementsByName('newItem')[0];
       $('.listUl').prepend('<li id="listId">' + newItem.value + '<button class="deleteButton"> <i class="fa fa-close fa-1x"></i></button></li>');
       // set the text entry box back to blank
-      e.defaultValue();
-
+      // e.defaultValue();
+      document.getElementById("itemEntry").reset();
     }
 })
 
 
   $(".deleteButton").click(function(){
-    $(this).parent('li').remove();    
+    $(this).parent('li id="listId"').remove();    
   })
 
 });

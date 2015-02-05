@@ -117,8 +117,8 @@
 	padding-bottom: 2em;
 	padding-left: 1em;
 	padding-right: 1em;
-	background-color: #B93624;
-	color: #E8D284;
+	background-color: #4C555A;
+	color: #2B3244;
 	font-family: 'Oswald', Arial, sans-serif;
 	font-size: 1em;
 	letter-spacing: .05em;
@@ -134,7 +134,8 @@
 
 .social a:hover{
 	text-decoration: none;
-	background-color: #2B3244;
+	background-color: #B93624;
+	color: #2B3244;
 }
 
 .social hr{
@@ -150,8 +151,8 @@
 }
 
 .socialLinks a:hover{
-	background-color: #B93624;
-	color: #2B3244;
+	background-color: #4C555A;
+	color: #B93624;
 	
 }
 
