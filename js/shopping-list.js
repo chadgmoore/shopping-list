@@ -23,8 +23,10 @@ $(document).ready(function() {
     if(e.which == 13) {
       e.preventDefault();
       var newItem = document.getElementsByName('newItem')[0];
-      // alert(newItem.value);
-      $('#listId').prepend('<li id="listId">' + newItem.value + '<button class="deleteButton"> <i class="fa fa-close fa-1x"></i></button></li>');
+      $('.listUl').prepend('<li id="listId">' + newItem.value + '<button class="deleteButton"> <i class="fa fa-close fa-1x"></i></button></li>');
+      // set the text entry box back to blank
+      e.defaultValue();
+
     }
 })
 

@@ -1,30 +1,26 @@
 /* responsive at 940 width. Change the padding on right side to match left*/
 
-
 .intro{
 	display: inline-block;
 	font-family: 'Cabin', sans-serif;
 	padding-top: 2em;
-	padding-left: 2em;
 	text-align: center;
-	background-color: #2B3244;
+	background-color: #4C555A;
 	padding-left: 0px;
+	margin-right: -.25em;
 }
 
 .rightSide{
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 1em;
-	padding-left: 6em;
-	padding-right: 6em;
-	padding-top: 1em;
 	text-align: center;
-	width: 22em;
+	padding-left: 0em;
+	width: 32em;
 }
 
 .content h1 {
 	font-size: 2em;
-	color: #B93624;
+	color: #2B3244;
 	letter-spacing: 0.03em;
 	padding-top: 2em;
 	padding-bottom: .2em;
@@ -36,8 +32,8 @@
 }
 
 .bigFont{
-   	color: #B93624;
-   	text-shadow: 2px 2px 2px #332C24;
+   	color: #2B3244;
+   	text-shadow: 2px 2px 2px #2B3244;
    	font-size: 1.8em;
 	text-align: center;
 	padding: 50px 60px;
@@ -45,9 +41,9 @@
     -moz-border-radius: 300px;
     -webkit-border-radius: 300px;
     border-radius: 300px;
-    -moz-box-shadow: 2px 2px 12px #B93624;
-    -webkit-box-shadow: 2px 2px 12px #B93624;
-    box-shadow: 2px 2px 12px #B93624;
+    -moz-box-shadow: 2px 2px 12px #2B3244;
+    -webkit-box-shadow: 2px 2px 12px #2B3244;
+    box-shadow: 2px 2px 12px #2B3244;
 }
 
 .addItems{
@@ -69,7 +65,7 @@
 	margin: 0 0 0px 0;
 	color: white;
 	vertical-align: middle;
-	text-transform: uppercase;
+	text-transform: none;
 }
 
 .listSection{
@@ -78,7 +74,7 @@
 
 
 .listUl{
-	width: 22em;
+	width: 32em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -91,7 +87,10 @@
 	color: #332C24;
 	padding-top: 1.2em;
 	padding-bottom: 1.2em;
+	padding-left: .5em;
 	font-size: 1.2em;
+	text-align: left;
+	vertical-align: middle;
 }
 
 .listUl li:nth-child(even){
@@ -166,6 +165,8 @@
 	width: auto;
 	background-color: #2B3244;
 	color: white;
+	margin-right: 1em;
+	vertical-align: middle;
 }
 
 .big-button:hover{
