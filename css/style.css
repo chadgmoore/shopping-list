@@ -27,9 +27,9 @@
 	font-family: 'Oswald', Arial, sans-serif;
 }
 
-.content p{
+/*.content p{
 	color: #4C555A;
-}
+}*/
 
 .bigFont{
    	color: #2B3244;
@@ -68,46 +68,8 @@
 	text-transform: none;
 }
 
-.listSection{
-	padding-bottom: 2em;
-}
 
-
-.listUl{
-	width: 32em;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#listId{
-	letter-spacing: 0.1em;
-}
-
-.listUl li{
-	color: #332C24;
-	padding-top: 1.2em;
-	padding-bottom: 1.2em;
-	padding-left: .5em;
-	font-size: 1.2em;
-	text-align: left;
-	vertical-align: middle;
-}
-
-.listUl li:nth-child(even){
-	background-color:#B93624;
-	color: #E8D284;
-}
-
-.listUl li:nth-child(odd){
-	background-color: #E8D284;
-	color: #B93624;
-}
-
-
-.checked{ 
-	text-decoration: line-through;
-}
-
+/* Social */
 
 .social{
 	width: 22em;
@@ -152,8 +114,7 @@
 
 .socialLinks a:hover{
 	background-color: #4C555A;
-	color: #B93624;
-	
+	color: #B93624;	
 }
 
 .deleteButton{
@@ -167,9 +128,62 @@
 	background-color: #2B3244;
 	color: white;
 	margin-right: 1em;
+	vertical-align: middle;}
+
+/*List Styles*/
+#list {
+	position: relative;
+	list-style-type: none;
+	width: 100%;
+	height: 100%;
+	color: #332C24;
+	padding-top: 0em;
+	padding-bottom: 1.2em;
+	padding-left: 0em;
+	font-size: 1.2em;
+	text-align: left;
 	vertical-align: middle;
 }
 
-.big-button:hover{
+#list li {
+	position: relative;
+	background-color: #E8D284;
+	color: #B93624;	
+	width: 100%;
+	height: 60px;
+}
+
+#list li:nth-child(even) { 
+	background-color:#B93624;
+	color: #E8D284;
+}
+
+.checked{ 
+	text-decoration: line-through;
+}
+
+
+
+/*Span with Class item*/
+.item {
+	position: absolute;
+	left: 0;
+	width: 78%;
+	height: 60px;
+	font-size: 1.2em;
+	color: #2B3244;
+	padding-left: 0.8em;
+	line-height: 3em;
+}
+
+/*Delete icon using div*/
+.delete {
+	position: absolute;
+	right: 0;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
 	cursor: pointer;
 }
+
+
