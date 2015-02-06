@@ -21,10 +21,10 @@ $(document).ready(function() {
     }
 })
 
-  //delete item
-  $(".delete").click(function(){
-    $(this).parent('.li').remove();
+$('#list').on('click', 'div.delete', function(event){
+  $(this).parent().slideUp('slow', function(){
+        $(this).slideDown('slow').remove();
+      })
   })
-
 });
-
+  
