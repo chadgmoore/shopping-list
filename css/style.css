@@ -162,9 +162,6 @@
 	text-decoration: line-through;
 }
 
-
-
-/*Span with Class item*/
 .item {
 	position: absolute;
 	left: 0;
@@ -176,7 +173,6 @@
 	line-height: 3em;
 }
 
-/*Delete icon using div*/
 .delete {
 	position: absolute;
 	right: 0;

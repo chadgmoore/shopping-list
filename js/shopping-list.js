@@ -23,7 +23,7 @@ $(document).ready(function() {
 
   //delete item
   $(".delete").click(function(){
-    $(this).parent('li').remove();
+    $(this).parent('.li').remove();
   })
 
 });
